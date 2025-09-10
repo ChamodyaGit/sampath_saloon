@@ -2606,11 +2606,12 @@ ul.leaders span+span {
 
 .foot-info {
 	padding: 30px 0px;
+	background: #000;
 }
 
 .foot-text {
 	font-size: 15px;
-	color: #000000;
+	color: #ffffff;
 	font-family: 'Poppins', sans-serif;
 }
 
