@@ -28,9 +28,33 @@
    <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
       rel="stylesheet" />
+
+   <style>
+      /*messenger float btn*/
+      .float {
+         position: fixed;
+         width: 48px;
+         height: 48px;
+         bottom: 20px;
+         right: 80px;
+         background-color: #168aff;
+         color: #fff;
+         border-radius: 50px;
+         text-align: center;
+         font-size: 25px;
+         z-index: 100;
+      }
+
+      .my-float {
+         margin-top: 10px;
+         margin-left: 0px;
+      }
+   </style>
+
 </head>
 
 <body>
+
    <div class="loader">
       <div class="loader-inner">
          <img src="images/logo.png" alt="LOGO" class="logo-img" />
@@ -66,9 +90,9 @@
                <li class="nav-item">
                   <a href="#service" class="nav-link  page-scroll">Our Services</a>
                </li>
-               <li class="nav-item">
+               <!-- <li class="nav-item">
                   <a href="#expert" class="nav-link page-scroll">Our Expert</a>
-               </li>
+               </li> -->
                <li class="nav-item">
                   <a href="#portfolio" class="nav-link page-scroll">Portfolio</a>
                </li>
@@ -462,242 +486,9 @@
       <!--Container End-->
    </div>
    <!--Price Area End-->
-   <!--Our Barbers(Team) Area Start-->
-   <div class="our-barbers barbers-page" id="expert">
-      <div class="container">
-         <div class="row justify-content-center">
-            <div class="col-lg-12 col-md-12">
-               <div class="section-title">
-                  <h2 class="title text-center">
-                     Our Expert
-                  </h2>
-               </div>
-            </div>
-         </div>
-         <div class="row team-wrapper">
-            <div class="col-lg-3 col-md-6 ">
-               <!-- Team Start-->
-               <div class="barbers">
-                  <div class="top-image">
-                     <div class="team-img-box">
-                        <div class="img" style="background:url(images/team/team-img1.jpg);">
-                           <img src="images/team/team-img1.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-overlay">
-                           <div class="team-zoom">
-                              <img src="images/portfolio/zoom.png" alt="Team Zoom" />
-                           </div>
-                        </div>
-                        <div class="modal-deatil">
-                           <div class="content">
-                              <h3 class="pop-details-head">Christie Pratt</h3>
-                              <div>
-                                 <h4>Makeup Expert</h4>
-                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt.</p>
-                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/facebook.png" alt="Facebook Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/twitter.png" alt="Twitter Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/instagram.png" alt="Instagram Logo" />
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="info text-center">
-                        <h4 class="title">
-                           Christie Pratt
-                        </h4>
-                        <p class="text">
-                           Makeup Expert
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!-- Team End-->
-            </div>
-            <div class="col-lg-3 col-md-6 ">
-               <!-- Team Start-->
-               <div class="barbers">
-                  <div class="top-image">
-                     <div class="team-img-box">
-                        <div class="img" style="background:url(images/team/team-img2.jpg);">
-                           <img src="images/team/team-img2.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-overlay">
-                           <div class="team-zoom">
-                              <img src="images/portfolio/zoom.png" alt="Team Zoom" />
-                           </div>
-                        </div>
-                        <div class="modal-deatil">
-                           <div class="content">
-                              <h3 class="pop-details-head">Calvin <br>Roy</h3>
-                              <div>
-                                 <h4> Style Expert</h4>
-                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt.</p>
-                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/facebook.png" alt="Facebook Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/twitter.png" alt="Twitter Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/instagram.png" alt="Instagram Logo" />
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="info text-center">
-                        <h4 class="title">
-                           Calvin Roy
-                        </h4>
-                        <p class="text">
-                           Style Expert
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!-- Team End-->
-            </div>
-            <div class="col-lg-3 col-md-6 ">
-               <!-- Team Start-->
-               <div class="barbers">
-                  <div class="top-image">
-                     <div class="team-img-box">
-                        <div class="img" style="background:url(images/team/team-img3.jpg);">
-                           <img src="images/team/team-img3.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-overlay">
-                           <div class="team-zoom">
-                              <img src="images/portfolio/zoom.png" alt="Team Zoom" />
-                           </div>
-                        </div>
-                        <div class="modal-deatil">
-                           <div class="content">
-                              <h3 class="pop-details-head">Jill <br> Cortez</h3>
-                              <div>
-                                 <h4> Nail Expert</h4>
-                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt.</p>
-                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/facebook.png" alt="Facebook Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/twitter.png" alt="Twitter Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/instagram.png" alt="Instagram Logo" />
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="info text-center">
-                        <h4 class="title">
-                           Jill Cortez
-                        </h4>
-                        <p class="text">
-                           Nail Expert
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!-- Team End-->
-            </div>
-            <div class="col-lg-3 col-md-6">
-               <!-- Team Start-->
-               <div class="barbers">
-                  <div class="top-image">
-                     <div class="team-img-box">
-                        <div class="img" style="background:url(images/team/team-img4.jpg);">
-                           <img src="images/team/team-img4.jpg" alt="Team Image" />
-                        </div>
-                        <div class="team-overlay">
-                           <div class="team-zoom">
-                              <img src="images/portfolio/zoom.png" alt="Team Zoom" />
-                           </div>
-                        </div>
-                        <div class="modal-deatil">
-                           <div class="content">
-                              <h3 class="pop-details-head">Ellen <br>Rose</h3>
-                              <div>
-                                 <h4> Hair Expert</h4>
-                                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                    tempor incididunt.</p>
-                                 <ul class="hero-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/facebook.png" alt="Facebook Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/twitter.png" alt="Twitter Logo" />
-                                       </a>
-                                    </li>
-                                    <li>
-                                       <a href="#" target="_blank">
-                                          <img src="images/instagram.png" alt="Instagram Logo" />
-                                       </a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="info text-center">
-                        <h4 class="title">
-                           Ellen Rose
-                        </h4>
-                        <p class="text">
-                           Hair Expert
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <!-- Team End-->
-            </div>
-         </div>
-      </div>
-      <!--Container End-->
-   </div>
-   <!--Our Barbers(Team) Area End-->
+ 
    <!--Video Area Start-->
-   <div class="video">
+   <div class="video mt-5">
       <div class="overlay"></div>
       <div class="container">
          <div class="row justify-content-center align-items-center">
@@ -1004,8 +795,11 @@
                   </div>
                </div>
                <div class="contactmap">
-                  <div class="mapcont" >
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.750533851247!2d80.6890501!3d7.269204299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3675a4053b8f7%3A0x89639a9455ca5925!2sSampath%20Saloon!5e0!3m2!1sen!2slk!4v1757502756876!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  <div class="mapcont">
+                     <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.750533851247!2d80.6890501!3d7.269204299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3675a4053b8f7%3A0x89639a9455ca5925!2sSampath%20Saloon!5e0!3m2!1sen!2slk!4v1757502756876!5m2!1sen!2slk"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                   <div class="clearfix"></div>
                </div>
@@ -1057,7 +851,39 @@
                <!-- Contact Right End -->
             </div>
          </div>
+<<<<<<< HEAD
          
+=======
+         <!-- Footer Start -->
+         <div class="foot-info d-flex justify-content-between align-items-center">
+            <div class="foot-logo">
+               <a href="index-2.html">
+                  <img src="images/logo.png" alt="Logo" />
+               </a>
+            </div>
+            <div class="foot-text">2025 © All Rights Reserved | Designed and Developed by Silicon Radon Networks
+               (Pvt) Ltd</div>
+            <div class="f_d">
+               <ul class=" footer-social social-icon icon-sm m-0 xs-text-center text-right d-flex">
+                  <li>
+                     <a href="https://web.facebook.com/people/Sampath-Saloon/100057463448677/" target="_blank">
+                        <img src="images/facebook.png" alt="Facebook Logo" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" target="_blank">
+                        <img src="images/twitter.png" alt="Twitter Logo" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#" target="_blank">
+                        <img src="images/instagram.png" alt="Instagram Logo" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+>>>>>>> 84127f22c786ca0e78443affb70e81f1561d704c
          <!-- Footer End -->
       </div>
       <!--Container End-->
@@ -1138,6 +964,32 @@
          </div>
       </div>
    </div>
+
+   <!--Messenger and WhatsApp Floating btns-->
+   <a href="https://m.me/94776057315" class="float" style="z-index: 999999;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-messenger my-float"
+         viewBox="0 0 16 16">
+         <path
+            d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z" />
+      </svg>
+   </a>
+   <a href="https://wa.me/94776057315" id="wa-btn-wrapper"
+      style="position: fixed; z-index: 999999; bottom: 20px; right: 20px; aspect-ratio: 1/1 !important;">
+      <div id="wa_btn-content"
+         style="background: #16BE45; padding:  10px 13px; border-radius: 100%; aspect-ratio: 1/1 !important; width: 50px; height: 50px !important;">
+         <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+               d="M18.1225 14.9458C17.8183 14.7895 16.3033 14.0473 16.0215 13.9469C15.7397 13.8409 15.5332 13.7907 15.3295 14.1032C15.123 14.4129 14.5371 15.102 14.3529 15.3113C14.1744 15.5178 13.993 15.5429 13.6889 15.3894C11.8808 14.4854 10.695 13.7767 9.50361 11.7315C9.18832 11.1874 9.8189 11.2265 10.4076 10.0518C10.5081 9.84534 10.4578 9.66956 10.3797 9.51331C10.3016 9.35706 9.68776 7.84478 9.43106 7.22815C9.18274 6.62826 8.92604 6.71197 8.7391 6.70081C8.56053 6.68965 8.35684 6.68965 8.15037 6.68965C7.9439 6.68965 7.61187 6.76777 7.33006 7.0719C7.04825 7.38161 6.25305 8.12659 6.25305 9.63887C6.25305 11.1511 7.35517 12.616 7.50584 12.8225C7.66209 13.0289 9.67381 16.1316 12.7625 17.4681C14.7157 18.3107 15.4802 18.3833 16.4567 18.2382C17.051 18.1489 18.2759 17.496 18.5298 16.7734C18.7837 16.0535 18.7837 15.4369 18.7084 15.3085C18.6331 15.1718 18.4266 15.0937 18.1225 14.9458Z"
+               fill="white"></path>
+            <path
+               d="M24.0292 7.65625C23.3986 6.15792 22.4946 4.81306 21.3422 3.65792C20.198 2.50948 18.8395 1.5966 17.3439 0.970982C15.8093 0.326451 14.1798 0 12.5002 0H12.4444C10.7535 0.00837054 9.11567 0.343192 7.57549 1.00167C6.09267 1.63371 4.74699 2.54821 3.61344 3.6942C2.47226 4.84654 1.57661 6.18583 0.95719 7.67857C0.315449 9.22433 -0.00821224 10.8677 0.000158294 12.5586C0.00962607 14.4963 0.468048 16.4054 1.33944 18.1362V22.3772C1.33944 22.7176 1.47467 23.0441 1.71537 23.2848C1.95607 23.5255 2.28253 23.6607 2.62293 23.6607H6.86679C8.59752 24.5321 10.5067 24.9905 12.4444 25H12.5029C14.1743 25 15.7954 24.6763 17.3216 24.043C18.8097 23.4248 20.163 22.5226 21.306 21.3867C22.4583 20.2455 23.3651 18.9118 23.9985 17.4247C24.657 15.8845 24.9918 14.2467 25.0002 12.5558C25.0085 10.8566 24.6793 9.20759 24.0292 7.65625ZM19.8132 19.8772C17.8573 21.8136 15.2624 22.8795 12.5002 22.8795H12.4527C10.7702 22.8711 9.09893 22.4526 7.62293 21.6657L7.38855 21.5402H3.45998V17.6116L3.33442 17.3772C2.54759 15.9012 2.12906 14.2299 2.12069 12.5474C2.10953 9.76562 3.17259 7.15402 5.12293 5.18694C7.07047 3.21987 9.67371 2.1317 12.4555 2.12054H12.5029C13.898 2.12054 15.2513 2.39118 16.5264 2.9269C17.7708 3.44866 18.8869 4.19922 19.8467 5.15904C20.8037 6.11607 21.5571 7.23493 22.0788 8.47935C22.6201 9.76841 22.8908 11.1356 22.8852 12.5474C22.8685 15.3265 21.7775 17.9297 19.8132 19.8772Z"
+               fill="white"></path>
+         </svg>
+         <p style="color: white; margin-left: 0 !important">
+
+         </p>
+      </div>
+   </a>
    <!-- Javascript -->
    <script src="assets/js/jquery.min.js"></script>
    <script src="assets/js/Popper.js"></script>
