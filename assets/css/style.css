@@ -318,7 +318,7 @@ body.animate {
 	-webkit-transition: 0.4s all ease;
 	-o-transition: 0.4s all ease;
 	transition: 0.4s all ease;
-	background: #fff;
+	background: #000000;
 	border: none;
 	color: #4e4e4e;
 	font-size: 15px;
@@ -347,7 +347,7 @@ body.animate {
 
 .navbar-light .navbar-nav>.nav-item>a {
 	font-size: 15px;
-	color: #000;
+	color: #ffffff;
 }
 
 .nav>li>a {
@@ -397,13 +397,14 @@ body.animate {
 }
 
 .nav-white {
-	background-color: #fff;
+	background-color: #000000;
+	color: #ffffff;
 	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
 }
 
 .nav-white .navbar-nav>.nav-item>.nav-link {
-	color: #171717;
+	color: #ffffff;
 }
 
 .nav-white .navbar-nav>.nav-item>.nav-link.active,
